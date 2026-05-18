@@ -1,16 +1,50 @@
-# React + Vite
+# Kindle3D 🔷
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern login page built with React + Vite, featuring an animated WebGL background and floating label inputs.
 
-Currently, two official plugins are available:
+## Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Kindle3D Login](./assets/login-react.png)
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React 19** — UI components
+- **Vite** — build tool and dev server
+- **WebGL** — animated background shader
+- **CSS** — floating label inputs, glassmorphism card
 
-## Expanding the ESLint configuration
+## Project Structure
+```
+src/
+├── components/
+│   ├── Login.jsx        # main login component
+│   └── Textbox.jsx      # reusable input with floating label
+├── hooks/
+│   └── useWebGLBackground.js  # WebGL animation logic
+├── styles/
+│   └── login.css        # all styles
+├── App.jsx
+└── main.jsx
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- 🎨 Animated WebGL background
+- 🪟 Glassmorphism card
+- ✨ Floating label inputs
+- 🔄 Loading spinner on submit
+- 📱 Fully responsive
+
+## Run Locally
+
+```bash
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
+```
+
+## Author
+
+Yadhira Saavedra
