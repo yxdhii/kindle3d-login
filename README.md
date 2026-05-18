@@ -4,7 +4,7 @@ A modern login page built with React + Vite, featuring an animated WebGL backgro
 
 ## Preview
 
-![Kindle3D Login](./src/assets/login-react.png)
+![Kindle3D Login](./src/assets/login-screen.png)
 
 ## Tech Stack
 
